@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<form>
+	<table align="center"width="400">
+			<tr>
+				<td>
+			<fieldset>
+				<legend>Profile:</legend>
+				<table>
+					<tr>
+						<td>
+							Mobile no:
+						</td>
+						<td>
+							01846699646
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Name:
+						</td>
+						<td>
+							Mueed
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Gender:
+						</td>
+						<td>
+							Male
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Email:
+						</td>
+						<td>
+							mueeddic@gmail.com
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Password:
+						</td>
+						<td>
+							1234
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Address:
+						</td>
+						<td>
+							banasree
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+		</td></tr>
+		</table>
+		
+</form>
+</body>
+</html>

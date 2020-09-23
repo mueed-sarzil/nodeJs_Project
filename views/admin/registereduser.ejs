@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User List</title>
+	<link rel="stylesheet" type="text/css" href="/assets/style.css">
+</head>
+<body>
+	<div align="center">
+          <img src="/images/logo1.jpg" alt="Logo" width="150" >
+          <h1 style="color: blue"><i>Intelligent Tourist Guide</i></h1>
+        </div>
+	<h1 align="center"> User List</h1>  
+	<a href="/admin">Back</a>|
+	<a href="/logout">logout</a>
+
+	<br><br>
+	<div>Search:<input type="text" placeholder="Search....!" name="search"></div>
+	<table border="1" width="100px" align="center">
+		<tr>
+			<th>Name</th>
+			<th>Email</th>
+			
+		</tr>
+		<% for(var i=0; i < uList.length; i++){ %>
+		<tr>
+			
+			<td><%= uList[i].firstname %></td>
+			<td><%= uList[i].email %></td>
+			<td>
+			
+			</td>
+		</tr>
+		<% } %>
+	</table>
+</body>
+</html>
